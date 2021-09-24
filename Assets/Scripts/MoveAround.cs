@@ -48,6 +48,5 @@ public class MoveAround : MonoBehaviour
         var pos = Target.transform.position;
         pos -= transform.rotation * new Vector3(0, 0, Distance);
         transform.position = pos;
-//        transform.LookAt(Target.transform);
     }
 }
